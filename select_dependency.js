@@ -21,7 +21,7 @@ var SelectDependency = new Class({
 		responseLabelKey:    "label",
 		responseValueKey:    "value",
 		responseSelectedKey: "selected",
-		loading_text:        "Loading..."
+		loadingText:        "Loading..."
 	},
 
 	initialize: function(target, source, options){
@@ -64,7 +64,7 @@ var SelectDependency = new Class({
 
 	requesting: function(){
 		this.target.empty();
-		this.addOption(0, this.options.loading_text);
+		this.addOption(0, this.options.loadingText);
 		this.target.fireEvent("change");
 		this.fireEvent("onChange");
 	},
