@@ -21,7 +21,7 @@ var SelectDependency = new Class({
 		responseLabelKey:    "label",
 		responseValueKey:    "value",
 		responseSelectedKey: "selected",
-		loadingText:        "Loading..."
+		loadingText:         "Loading..."
 	},
 
 	initialize: function(target, source, options){
