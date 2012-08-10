@@ -39,7 +39,7 @@ new SelectDependency('city', 'country', {
 	* responseLabelKey
 	* responseValueKey
 	* responseSelectedKey
-	* loading_text
+	* loadingText
 
 # Options
 <table>
@@ -84,7 +84,7 @@ new SelectDependency('city', 'country', {
 		<td>Name of the parameter from the response indicating the option selected by default.</td>
 	</tr>
 	<tr>
-		<td>loading_text</td>
+		<td>loadingText</td>
 		<td>Loading...</td>
 		<td>Use this to translate or change the loading text</td>
 	</tr>
